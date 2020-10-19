@@ -4,12 +4,11 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
--moz-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
--webkit-text-size-adjust: 100%;
-text-size-adjust: 100%;
-
 ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -22,7 +21,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  colour: #76a500;
+  color: #76a500;
 }
 
 a:hover,
